@@ -27,3 +27,9 @@ print("Phone numbers found:", phones)
 credit_card_pattern = r'\b(?:\d{4}[- ]?){3}\d{4}\b'
 credit_cards = re.findall(credit_card_pattern, text)
 print("Credit cards found:", credit_cards)
+
+# 5. CURRENCY AMOUNTS REGEX
+currency_pattern = r'\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?'
+currencies = re.findall(currency_pattern, text)
+print("Currency amounts found:", currencies)
+
