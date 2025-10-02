@@ -18,10 +18,10 @@ The program extracts:
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/{Dantwalig}/alu_regex-data-extraction-{Dantwalig}.git
+   git clone https://github.com/dgakumban-svg/alu_regex-data-extraction--Dantwalig-.git
 2. Navigate to the project folder:
    ```bash
-   cd alu_regex-data-extraction-{Dantwalig}
+   cd alu_regex-data-extraction--Dantwalig-
 3. Run the program
    ```bash
    python regex_extraction.py
